@@ -1,0 +1,16 @@
+bpm = beat per minute = beat / 60s
+4분의 4박자 = 1bit(1/4) 4개 = 8bit(1/32) > 1/32가 최소단위 = 1beat
+알아야 될거: bpm(X), 박자(Y/Z), 마디(A)
+구하는거 : 1bit 당 걸리는 시간(K) = Ks/1bit = (60/X)s/1bit
+
+X beat / 60s = (X/60) beat / 1s  =  
+X bpm = X beat per 60s > (X/60s) > Xbit/60s
+A * Y/Z * 32 = 전체 비트 수(T)
+beat = bit
+
+
+120bpm
+3/4박자
+48마디
+
+48 * 3/4 * 32 = 36 * 32  /  60 * 120
